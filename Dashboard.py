@@ -203,6 +203,6 @@ def update_bar_chart(portfolio_size, branch):
 
 # Run the app
 if __name__ == '__main__':
-    app.run_server(debug=False, port=8005)
+    app.run_server(debug=False)
     
-    ####app.run_server(debug=False)
+ 
