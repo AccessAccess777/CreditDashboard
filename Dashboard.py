@@ -14,7 +14,7 @@ from dash.dependencies import Input, Output
 import dash_table
 
 # Load the CSV file
-df = pd.read_csv(r'C:\Users\msadrzad\Desktop\data.csv')
+df = pd.read_csv(r'data.csv')
 
 # Create the Dash app
 app = dash.Dash(__name__)
