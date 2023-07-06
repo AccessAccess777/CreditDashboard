@@ -18,7 +18,7 @@ df = pd.read_csv(r'C:\Users\msadrzad\Desktop\data.csv')
 
 # Create the Dash app
 app = dash.Dash(__name__)
-
+server=app.server
 # Define the layout
 app.layout = html.Div(
     style={'backgroundColor': '#003366', 'padding': '2rem', 'fontFamily': 'Arial'},
@@ -205,4 +205,4 @@ def update_bar_chart(portfolio_size, branch):
 if __name__ == '__main__':
     app.run_server(debug=False, port=8005)
     
-    ####app.run_server(debug=False, port=8078)
+    ####app.run_server(debug=False)
